@@ -1,5 +1,6 @@
+/* function that accept the number as a param and join char to link two numbers */
 function numberToWord(n, custom_join_character) {
-
+    /* decalre var to convert the numbers to string */
     var string = n.toString(),
         units, tens, scales, start, end, chunks, chunksLen, chunk, ints, i, word, words;
 
