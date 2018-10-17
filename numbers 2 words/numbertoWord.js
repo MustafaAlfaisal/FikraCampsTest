@@ -84,5 +84,5 @@ function numberToWord(n, custom_join_character) {
     }
 
     return words.reverse().join(' ');
-
 }
+
